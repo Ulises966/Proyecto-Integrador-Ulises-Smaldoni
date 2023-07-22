@@ -3,14 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="./assets/base.css">
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="./assets/animations.css">
     <link rel="stylesheet" href=".assets/mediaqueries.css">
+    <link rel="stylesheet" href="./assets/register.css">
 
-    <title>Document</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
+
+    <script src="https://kit.fontawesome.com/8e7cd8452f.js" crossorigin="anonymous"></script>
+
+    <title>Us Pc</title>
 </head>
+
 <body>
-    
+
+    <header>
+        <a href="./index.html">
+        <img src="./assets/img/logo.png" alt="logo" class="header__logo">
+        </a>
+
+        <nav class="header__navbar">
+
+            <ul class="navbar__list">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contactanos</a></li>
+                <li><a href="#">PcTips</a></li>
+                <li><a href="#">Nosotros</a></li>
+            </ul>
+           
+        <div class="header__register">
+            <a class="register--btn" href="./register.html">Sign up</a>
+
+            <label for="menu-toggle" class="login__menu"> 
+                    Log in   
+                    <i class="fa-solid fa-circle-user login__menu--icon"></i>
+                <input type="checkbox" id="menu-toggle">
+                 
+                <div class="container__login">
+                    <div class="container__login--input">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" placeholder="Usuario">
+                    </div>
+                    <div class="container__login--input">
+                        <label for="password">Contraseña:</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div>
+                        <a class="login--btn" href="./index.html">Sign in</a>
+                    </div>
+                </div>    
+            </label>
+        </div>        
+        </nav>    
+    </header>
+
+    <main>
+        <section id="hero">
+
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
 </body>
 </html>
