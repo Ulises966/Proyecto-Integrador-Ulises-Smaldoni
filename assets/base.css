@@ -16,9 +16,10 @@ html {
 
 :root {
     --bg-header: #E5E4E2 ;
-    --login-btn: #003262 ;
-    --text-navbar-link: #003262;
-    --bg-menu-log: #90b4ce;
-    --btn-signin: #09406785;
+    --login-text: #094067;;
+    --text-secondary: #ef4565;
+    --text-navbar-link: #094067;
+    --bg-secondary: #90b4ce;
+   
     --btn-text-white: #fffffe;
 }
