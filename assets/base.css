@@ -11,15 +11,26 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 65px;
+    scroll-padding-top: 70px;
 }
 
 :root {
-    --bg-header: #E5E4E2 ;
-    --login-text: #094067;;
+    /* --bg-header: #E5E4E2 ;
+    --login-text: #094067;
     --text-secondary: #ef4565;
     --text-navbar-link: #094067;
     --bg-secondary: #90b4ce;
+   
+    --btn-text-white: #fffffe; */
+
+    --bg-main: #8A716A;
+    --bg-header: #C2B280 ;
+    --login-text: #094067;
+    --title-text: #094067;
+    --text-secondary: #ef4565;
+    --text-navbar-link: #fffffe;
+    --bg-secondary: #90b4ce;
+    --paragraph: #90a2b8;
    
     --btn-text-white: #fffffe;
 }
