@@ -76,6 +76,12 @@ header {
 }
 .login__btn--icon {
     font-size: 35px;
+    color: var(--login-text);
+}
+.login__btn span {
+    color: var(--login-text);
+    font-size: 16px;
+    font-weight: 600;
 }
 
 /* estilo de hero */
@@ -92,24 +98,23 @@ main {
 
 #hero {
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
     width: 100%;
-    height: 600px;
-    padding: 70px 30px;
     margin-top: 70px;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 50px;
+    padding: 70px 20px;
+    gap: 30px;
     background-image: url(./img/fondo-hero.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
 }
+
 .hero__info {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
     padding: 20px 20px;
-    width: 100%;
-    max-width: 1200px;
+    border-radius: 10px;
 }
 .hero__info--content {
     display: flex;
@@ -117,7 +122,8 @@ main {
     justify-content: center;
     align-items: center;
     padding: 30px;
-    width: 700px;
+    height: 300px;
+    width: 600px;
     gap: 30px;
     backdrop-filter: blur(2px) saturate(170%);
     -webkit-backdrop-filter: blur(2px) saturate(170%);
@@ -141,4 +147,50 @@ main {
     font-size: 20px;
     font-weight: 500;
     color: var(--paragraph);
+}
+
+/* seccion de servicios  */
+
+#servicios {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    padding: 40px 20px;
+    gap: 100px;
+}
+
+.servicios__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 60px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.servicios__container--info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 20px;
+    gap: 30px;
+}
+.servicios__container--info h3 {
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--title-scnd);
+}
+.servicios__container--info p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--paragraph-scnd);
+}
+
+.container--img {
+    width: 35%;
+    border-radius: 10px;
 }
