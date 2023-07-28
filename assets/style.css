@@ -91,7 +91,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #131415;
     width: 100%;
     background: var(--bg-main);
   }
@@ -99,22 +98,27 @@ main {
 #hero {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
-    width: 100%;
+    max-width: 1200px;
     margin-top: 70px;
     padding: 70px 20px;
-    gap: 30px;
-    background-image: url(./img/fondo-hero.jpg);
-    background-size: cover;
-    background-position: bottom;
+    gap: 20px;
+
 }
 
 .hero__info {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
     padding: 20px 20px;
+    gap: 100px;
     border-radius: 10px;
+}
+.hero__info img {
+    width: 500px;
 }
 .hero__info--content {
     display: flex;
@@ -124,19 +128,14 @@ main {
     padding: 30px;
     height: 300px;
     width: 600px;
-    gap: 30px;
-    backdrop-filter: blur(2px) saturate(170%);
-    -webkit-backdrop-filter: blur(2px) saturate(170%);
-    background-color: rgba(17, 25, 40, 0.05);
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
+    gap: 50px;
 }
 .hero__info--content h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 34px;
-    font-weight: 700;
+    font-weight: 800;
     color: var(--title-text);
 }
 .hero__info--content p {
@@ -155,8 +154,16 @@ main {
     display: flex;
     flex-direction: column;
     max-width: 1200px;
-    padding: 40px 20px;
+    padding: 70px 20px;
     gap: 100px;
+}
+#servicios h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--title-scnd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .servicios__container {
@@ -194,3 +201,100 @@ main {
     width: 35%;
     border-radius: 10px;
 }
+
+/* seccion de cards pc tips  */
+
+#pctips {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    padding: 70px 20px;
+    gap: 50px;
+}
+#pctips h4 {
+    font-size: 36px;
+    color: var(--title-scnd);
+    font-weight: 700;
+}
+
+.pctips__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 30px;
+}
+
+.container__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url(./img/bg-card.png);
+    background-size: cover;
+}
+.card--content {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px) saturate(180%);
+    -webkit-backdrop-filter: blur(5px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.card--img {
+    width: 70%;
+    border-radius: 10px;
+}
+.card--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card--text h5 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--title-card);
+}
+.card--text p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--paragraph-card);
+}
+.card--btn {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    background-color: #25D366;
+    border-radius: 20px;
+}
+
+/* seccion de contacto */
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 30px;
+    gap: 50px;
+}
+
