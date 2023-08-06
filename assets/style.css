@@ -93,6 +93,13 @@ header {
     font-weight: 600;
 }
 
+/* menu hamburguesa  */
+
+.menu-label, 
+#menu-toggle {
+    display: none;
+}
+
 /* estilo de hero */
 
 main {
