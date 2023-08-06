@@ -18,9 +18,10 @@ html {
 :root {
 
     --bg-main: #0E2954;
+    --bg-footer: #0E2954;
     --bg-header: #1F6E8C;
     --login-text: #45ef7e;
-    --title-text: #84A7A1;
+    --title-text: #a2fff0;
     --text-secondary: #ef4565;
     --text-navbar-link: #fffffe;
     --paragraph: #a7bfdd;
