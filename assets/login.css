@@ -2,6 +2,7 @@ main {
     background-image: url(./img/background-submit.jpg);
     background-position: center;
     background-size: cover;
+    height: 100vh;
 }
 
 #login {
