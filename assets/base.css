@@ -31,4 +31,6 @@ html {
     --title-scnd: #F4F2DE;
     --text-input: #353535;
     --bg-placeholder: #d2fff0; 
+    --bg-ph-focus: #aee0cf;
+    --text-span: #6affe6;
 }

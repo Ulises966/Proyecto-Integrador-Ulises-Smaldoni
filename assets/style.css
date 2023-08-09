@@ -29,12 +29,18 @@ header {
 }
 
 .header__navbar {
-    gap: 100px;
+    padding: 10px
+}
+
+.navbar__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
 }
 
 /* lista de links menu */
 .navbar__list {
-    gap: 50px;
+    gap: 40px;
 }
 .navbar__list li a {
     color: var(--text-navbar-link);
@@ -94,6 +100,10 @@ header {
 }
 
 /* menu hamburguesa  */
+.menu-label i {
+    font-size: 28px;
+    color: var(--login-text);
+}
 
 .menu-label, 
 #menu-toggle {
@@ -116,10 +126,13 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 1200px;
+    width: 100%;
     margin-top: 70px;
     padding: 50px 20px;
     gap: 20px;
+    background-image: url(./img/background-hero.jpg);
+    background-position: center;
+    background-size: cover;
 
 }
 
@@ -128,9 +141,9 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1200px;
     padding: 20px 20px;
     gap: 70px;
-    border-radius: 10px;
 }
 .hero__info img {
     width: 450px;
@@ -141,14 +154,20 @@ main {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    gap: 150px;
+    gap: 100px;
 }
 .hero__info--content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 60px; 
+    gap: 40px; 
+    padding: 40px;
+    backdrop-filter: blur(8px) saturate(150%);
+    -webkit-backdrop-filter: blur(8px) saturate(150%);
+    background-color: rgba(17, 25, 40, 0.2);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
 }
 .hero__info h1 {
     display: flex;
@@ -158,6 +177,7 @@ main {
     font-size: 40px;
     font-weight: 800;
     color: var(--title-text);
+    text-shadow: #131415 2px 4px;
 }
 .hero__info--content p {
     display: flex;
@@ -358,8 +378,8 @@ main {
 }
 
 .contact__mensaje--textarea label {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
 
 }
 .contact__mensaje--textarea input {
@@ -381,12 +401,13 @@ main {
     background-color: var(--bg-placeholder);
 }
 .contact__mensaje--textarea input:focus, textarea:focus {
-    background-color: #92c4b3;
+    background-color: var(--bg-ph-focus);
 }
 .contact__mensaje--textarea a {
     cursor: pointer;
     display: flex;
     justify-content: center;
+    text-align: center;
     font-size: 18px;
     font-weight: 600;
     width: 300px;
@@ -395,7 +416,6 @@ main {
     border-radius: 10px;
     background-color: var(--text-secondary);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-
 }
 
 .contact__location {
@@ -441,7 +461,7 @@ main {
     align-items: center;
     background-color: var(--bg-footer);
     width: 100%;
-    padding: 50px 20px;
+    padding: 70px 20px 30px 20px;
     gap: 50px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }

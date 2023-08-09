@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="./assets/animations.css">
     <link rel="stylesheet" href="./assets/mediaqueries.css">
-    <link rel="stylesheet" href="./assets/register.css">
+    <!-- <link rel="stylesheet" href="./assets/register.css"> -->
     <link rel="stylesheet" href="./assets/login.css">
 
 
@@ -21,8 +21,116 @@
 
 
     <title>Login</title>
+
 </head>
 <body>
+    <header>
+        <a href="./index.html">
+        <img src="./assets/img/logo.png" alt="logo" class="header__logo">
+        </a>
+
+        <nav class="header__navbar">
+
+            <label for="menu-toggle" class="menu-label">
+                <i class="fa-solid fa-bars-staggered"></i>
+              </label>
+              <input type="checkbox" id="menu-toggle">
+            
+            <div class="navbar__menu">
+
+                <ul class="navbar__list">
+                    <li><a href="./index.html#hero">Home</a></li>
+                    <li><a href="./index.html#servicios">Servicios</a></li>
+                    <li><a href="./index.html#pctips">PcTips</a></li>
+                    <li><a href="./index.html#contact">Contacto</a></li>
+               </ul>     
+                        
+                <div class="header__register">
+                    <a class="register--btn" href="./register.html">Registrate</a>
+                    <a href="./login.html" class="login__btn"> 
+                    <span>Log in</span> 
+                    <i class="fa-solid fa-circle-user login__btn--icon"></i>
+                    </a>
+                </div>         
+            </div>
+
+        </nav>    
     
+    </header>
+
+    <main>
+
+        <section id="login">
+            <div class="login__container">
+
+                <div class="login__content">
+                    
+                    <h5>
+                        Ingresa con tu cuenta
+                    </h5>
+                    
+                    <div class="login__content--stile">
+                        <label for="usuario">Usuario o Email:</label>
+                        <input type="email" id="usuario" />
+                
+                        <label for="password">Contraseña:</label>
+                        <input type="password" id="password"/>
+                        <div class="login__btn--a">
+                            <a href="./index.html">Ingresar</a>
+                        </div>    
+                    </div>
+                    <div class="login__content--links">
+                        <div class="content--links">
+                            <p>¿ No estas registrado ?</p>
+                            <span><a href="./register.html">ingresa aqui</a></span>
+                        </div>
+                        <div class="content--links">
+                            <p>¿ Olvidaste tu contraseña ?</p>
+                            <span><a href="#">Recuperar cuenta</a></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </main>
+
+
+
+
+    <footer id="footer">
+        <div class="footer__container">
+            <div class="footer__soporte">
+                <h6>Contacto de soporte</h6>
+
+                <div class="soporte__data">
+                    <div class="data--estilo">
+                        <i class="fa-solid fa-square-phone"></i>
+                        <span>+54 9 (0351) 4646464</span>
+                    </div>    
+                    <div class="data--estilo">
+                        <i class="fa-solid fa-square-envelope"></i>
+                        <span>uspc-service@mail.com</span>
+                    </div>    
+                    <div class="data--estilo">
+                        <a href="https://web.whatsapp.com/" target="_blank"> <img src="./assets/img/img-redes/whatsapp.png" alt="whatsapp"> </a>
+                        <span>+54 9 (351) 9666666</span>
+                    </div>
+                
+                </div>
+
+            </div>
+
+            <div class="footer__redes">
+                <h6>Seguinos en nuestras redes</h6>
+                <div class="redes--icon">
+                    <a href="https://es-la.facebook.com/"> <img  src="./assets/img/img-redes/facebook.png" alt="facebook"> </a>
+                    <a href="https://www.instagram.com/"> <img  src="./assets/img/img-redes/instagram.png" alt="instagram"> </a>
+                    <a href="https://www.youtube.com/"> <img  src="./assets/img/img-redes/youtube.png" alt="youtube"> </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
