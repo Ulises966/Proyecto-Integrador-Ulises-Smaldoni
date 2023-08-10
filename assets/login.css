@@ -2,7 +2,6 @@ main {
     background-image: url(./img/background-submit.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
 }
 
 #login {
@@ -10,7 +9,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-top: 70px;
-    padding: 50px;
+    padding: 40px;
 }
 
 .login__container {
@@ -18,8 +17,8 @@ main {
     justify-content: center;
     align-items: center;
     padding: 50px; 
-    backdrop-filter: blur(16px) saturate(200%);
-    -webkit-backdrop-filter: blur(16px) saturate(200%);
+    backdrop-filter: blur(5px) saturate(200%);
+    -webkit-backdrop-filter: blur(5px) saturate(200%);
     background-color: rgba(17, 25, 40, 0.8);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);   
@@ -50,7 +49,7 @@ main {
 }
 .login__content--stile input {
     width: 300px;
-    border-radius: 10px;
+    border-radius: 7px;
     padding: 5px;
     font-size: 16px;
     font-weight: 500;
@@ -59,7 +58,7 @@ main {
 }
 .login__content--stile textarea {
     width: 300px;
-    border-radius: 10px;
+    border-radius: 7px;
     padding: 5px;
     font-size: 16px;
     font-weight: 500;
@@ -68,6 +67,21 @@ main {
 }
 .login__content--stile input:focus, textarea:focus {
     background-color: var(--bg-ph-focus);
+}
+.login__checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;    
+}
+.check--stile {
+    height: 18px;
+    width: 18px;
+}
+.login__checkbox label {
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--text-trd);
 }
 .login__btn--a {
     display: flex;
