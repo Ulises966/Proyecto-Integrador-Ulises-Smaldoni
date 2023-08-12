@@ -8,7 +8,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    padding: 10px 60px;
+    padding: 10px 50px;
     position: fixed;
     top: 0;
     z-index: 2;
@@ -204,7 +204,6 @@ main {
     display: flex;
     flex-direction: column;
     max-width: 1200px;
-    /* margin-top: 150px; */
     padding: 100px 20px;
     gap: 100px;
 }
@@ -347,7 +346,7 @@ main {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 70px 30px;
+    padding: 70px 20px;
     gap: 200px;
 }
 .contact__content {
@@ -362,7 +361,7 @@ main {
 }
 .contact__mensaje h5 {
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     color: var(--title-scnd);
 }
@@ -421,7 +420,7 @@ main {
 }
 .contact__maps h5 {
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     color: var(--title-scnd);
 }
@@ -429,22 +428,27 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 30px;
 }
+.contact__maps iframe {
+    border-radius: 10px;
+}
+
 .location--icon {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 15px;
+    gap: 10px;
 }
 .location--icon span {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 }
 .location--icon i {
-    font-size: 28px;
+    font-size: 24px;
     color: #ff4949;
 }
 

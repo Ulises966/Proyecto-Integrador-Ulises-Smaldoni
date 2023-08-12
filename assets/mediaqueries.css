@@ -55,7 +55,7 @@
 
 @media (max-width: 992px) {
     header {
-        padding: 10px 30px;
+        padding: 10px 20px;
     }
     .navbar__menu {
         position: absolute;
@@ -167,6 +167,78 @@
     .card--img {
         width: 65%;
     }
-
-
+}
+@media (max-width: 576px) {
+    .header__logo {
+        width: 50%;
+    }
+    #hero {
+        padding: 5px;
+    }
+    .hero__info {
+        gap: 30px;
+    }
+    .hero__info h1 {
+        font-size: 26px;
+    }
+    .hero__info--container {
+        gap: 10px;
+    }
+    .hero__info--content {
+        gap: 10px;
+    }
+    .hero__info--content p {
+        font-size: 16px;
+    }
+    .hero__info--content a {
+        font-size: 16px;
+    }
+    .container--img {
+        width: 200px;
+    }
+    #servicios h2 {
+        font-size: 20px;
+    }
+    #servicios h3 {
+        font-size: 18px;
+    }
+    #servicios p {
+        font-size: 16px;
+    }
+    #pctips {
+        padding: 5px;
+    }
+    #pctips h4 {
+        font-size: 20px;
+    }
+    .card--text h5 {
+        font-size: 18px;
+    }
+    .card--text p {
+        font-size: 16px;
+    }
+    .container__card {
+        width: 300px;
+        height: 350px;
+    }
+    .card--content {
+        width: 300px;
+        height: 350px;
+    }
+    .card--img {
+        width: 60%;
+    }
+    .contact__maps iframe {
+        width: 250px;
+        height: 250px;
+    }
+    .contact__mensaje--textarea input {
+        width: 250px;
+    }    
+    .contact__mensaje--textarea textarea {
+        width: 250px;
+    }
+    .contact__mensaje--textarea a {
+        width: 250px;
+    }
 }
