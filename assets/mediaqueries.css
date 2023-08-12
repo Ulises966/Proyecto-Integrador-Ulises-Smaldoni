@@ -127,6 +127,7 @@
 
     .servicios__container {
         flex-direction: column;
+        gap: 30px;
     }
     .servicios__container--info {
         width: 90%;
