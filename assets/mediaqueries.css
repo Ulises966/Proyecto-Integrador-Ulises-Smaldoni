@@ -94,16 +94,22 @@
         display: flex;
     }
     .hero__info {
-        gap: 50px;
+        gap: 40px;
     }
     .hero__info h1 {
-        font-size: 36px;
+        font-size: 30px;
+    }
+    .hero__info--container {
+        gap: 20px;
+    }
+    .hero__info--content {
+        gap: 20px;
     }
     .hero__info--content p {
         font-size: 20px;
     }
     .hero__info img {
-        width: 300px;
+        width: 250px;
     }
     .hero__info--content a {
         font-size: 16px;
