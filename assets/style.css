@@ -251,8 +251,7 @@ main {
 }
 
 .container--img {
-    width: 35%;
-    border-radius: 10px;
+    width: 350px;
 }
 
 /* seccion de cards pc tips  */

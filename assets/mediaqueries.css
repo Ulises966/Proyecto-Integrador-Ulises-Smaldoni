@@ -114,6 +114,9 @@
     .hero__info--content a {
         font-size: 16px;
     }
+    .container--img {
+        width: 280px;
+    }
 
     #contact {
         flex-direction: column;
