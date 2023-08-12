@@ -25,6 +25,12 @@
     .hero__info img {
         width: 400px;
     }
+    #contact {
+        gap: 150px;
+    }
+    .footer__container {
+        gap: 300px;
+    }
 }
 @media (max-width: 1070px) {
     .navbar__menu {
@@ -36,6 +42,12 @@
     .hero__info h1 {
         font-size: 40px;
     }
+    #contact {
+        gap: 120px;
+    }
+    .footer__container {
+        gap: 200px;
+    }   
 }
 
 @media (max-width: 992px) {
@@ -76,6 +88,26 @@
     #menu-toggle:checked + .navbar__menu {
         display: flex;
     }
-    
+
+    .hero__info h1 {
+        font-size: 34px;
+    }
+    .hero__info--content p {
+        font-size: 20px;
+    }
+    .hero__info img {
+        display: none;
+    }
+    .hero__info--content a {
+        font-size: 16px;
+    }
+
+    #contact {
+        flex-direction: column;
+        gap: 60px;
+    }
+    .footer__container {
+        gap: 100px;
+    }   
 
 }
