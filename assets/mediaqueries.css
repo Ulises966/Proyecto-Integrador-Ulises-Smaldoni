@@ -1,13 +1,40 @@
 
-@media (max-width: 1150px) {
+@media (max-width: 1400px) {
+    .navbar__menu {
+        gap: 100px;
+    }
+    .hero__info--container {
+        gap: 110px;
+    }   
+}
+@media (max-width: 1366px) {
+    .hero__info--container {
+        gap: 80px;
+    }   
+}
+@media (max-width: 1200px) {
     .navbar__menu {
         gap: 70px;
     }
+    .navbar__list {
+        gap: 20px;
+    }
+    .hero__info--container {
+        gap: 50px;
+    }
+    .hero__info img {
+        width: 400px;
+    }
 }
-
 @media (max-width: 1070px) {
     .navbar__menu {
-        gap: 50px;
+        gap: 40px;
+    }
+    .hero__info--container {
+        flex-direction: column;
+    }
+    .hero__info h1 {
+        font-size: 40px;
     }
 }
 
@@ -49,5 +76,6 @@
     #menu-toggle:checked + .navbar__menu {
         display: flex;
     }
+    
 
 }
