@@ -8,6 +8,9 @@
     }   
 }
 @media (max-width: 1366px) {
+    .hero__info {
+        gap: 50px;
+    }
     .hero__info--container {
         gap: 80px;
     }   
@@ -88,7 +91,9 @@
     #menu-toggle:checked + .navbar__menu {
         display: flex;
     }
-
+    .hero__info {
+        gap: 150px;
+    }
     .hero__info h1 {
         font-size: 36px;
     }
@@ -111,7 +116,44 @@
     }   
 }
 @media (max-width: 768px) {
+    .servicios__container {
+        flex-direction: column;
+    }
+    .servicios__container--info {
+        width: 90%;
+    }
     .footer__container {
         flex-direction: column;
     }
+    #servicios h2 {
+        font-size: 28px;
+    }
+    #servicios h3 {
+        font-size: 22px;
+    }
+    #servicios p {
+        font-size: 18px;
+    }
+    #pctips h4 {
+        font-size: 28px;
+    }
+    .card--text h5 {
+        font-size: 20px;
+    }
+    .card--text p {
+        font-size: 16px;
+    }
+    .container__card {
+        width: 350px;
+        height: 400px;
+    }
+    .card--content {
+        width: 350px;
+        height: 400px;
+    }
+    .card--img {
+        width: 65%;
+    }
+
+
 }
