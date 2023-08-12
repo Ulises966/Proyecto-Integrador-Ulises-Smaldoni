@@ -110,3 +110,26 @@ main {
     font-weight: 600;
     color: var(--text-span);
 }
+
+@media (max-width: 576px) {
+    #register {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        padding: 40px 10px;
+    }
+    .register__container {
+        padding: 20px; 
+    }
+    .register__content--stile input {
+        width: 250px;
+    }
+    .content--links {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+}

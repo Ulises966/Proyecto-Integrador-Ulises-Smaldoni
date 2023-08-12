@@ -167,6 +167,7 @@
     .card--img {
         width: 65%;
     }
+
 }
 @media (max-width: 576px) {
     .header__logo {
@@ -241,4 +242,5 @@
     .contact__mensaje--textarea a {
         width: 250px;
     }
+    
 }
