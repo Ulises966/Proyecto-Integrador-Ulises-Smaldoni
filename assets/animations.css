@@ -8,4 +8,27 @@
     color: var(--text-secondary);
     transition: all 0.4s ease-in-out;
 }
+.hover-btn:hover {
+  transform: scale(0.95);
+  transition: all 0.5s ease-in-out;
+}
+.container-hover:hover {
+  transform: scale(1.05);
+  transition: all 1s ease-in-out;
+}
 
+@keyframes translate {
+    0% { 
+      transform: translatex(-20%);
+    }
+    100%{ 
+      transform: translatex(0%);
+    }
+  }
+
+  .hero__info h1 {
+    animation: translate 5s ;
+  }
+  .servicios__container {
+    animation: translate 3s ;
+  }

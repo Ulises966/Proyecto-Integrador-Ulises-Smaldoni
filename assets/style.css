@@ -134,12 +134,25 @@ main {
 .hero__info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 100px;
-    height: 100vh;
+    gap: 50px;
     align-items: center;
     max-width: 1200px;
     padding: 10px;    
+}
+.hero__titulo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.hero-ilustration {
+    display: flex;
+    justify-content: center;
+}
+.info--span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
 }
 .hero__info--container {
     display: flex;
@@ -177,7 +190,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     color: var(--paragraph);
 }
