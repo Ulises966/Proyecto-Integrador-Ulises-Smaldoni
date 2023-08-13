@@ -12,7 +12,9 @@ header {
     position: fixed;
     top: 0;
     z-index: 2;
-    background-color: var(--bg-header);
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
+    
 }
 
 .header__logo {

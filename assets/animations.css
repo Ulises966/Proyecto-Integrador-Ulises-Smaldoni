@@ -37,6 +37,14 @@
     transform: translatex(0px);
   }
 }
+@keyframes inputs-slide {
+  0% { 
+    transform: translatey(14px);
+  }
+  100%{ 
+    transform: translatey(0px);
+  }
+}
 
 @keyframes fade {
   from{
@@ -65,4 +73,10 @@
 }
 .slide2 {
     animation: translateIzq 5s;
+}
+.input-slide {  
+    animation: inputs-slide 1.5s;
+}
+.input-slide2 {  
+    animation: inputs-slide 2s;
 }
