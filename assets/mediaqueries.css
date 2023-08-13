@@ -107,7 +107,7 @@
     .hero__info--content a {
         font-size: 16px;
     }
-    .container--img {
+    .container--img img {
         width: 280px;
     }
     .hero-ilustration img {
@@ -195,7 +195,7 @@
     .hero__info--content a {
         font-size: 16px;
     }
-    .container--img {
+    .container--img img {
         width: 200px;
     }
     #servicios h2 {

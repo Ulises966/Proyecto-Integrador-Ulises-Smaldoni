@@ -1,34 +1,68 @@
 
 .navbar__list li:hover {
     color: var(--text-secondary);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in;
     transform: scale(1.1);
 }
 .navbar__list li a:hover {
     color: var(--text-secondary);
-    transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in;
 }
 .hover-btn:hover {
-  transform: scale(0.95);
-  transition: all 0.5s ease-in-out;
+    transform: scale(0.95);
+    transition: all 0.5s ease-in;
 }
 .container-hover:hover {
-  transform: scale(1.05);
-  transition: all 1s ease-in-out;
+    transform: scale(1.05);
+    transition: all 1s ease-in;
+}
+.card--content:hover {
+  transform: scale(1.03);
+  transition: all 1s ease-in;
 }
 
-@keyframes translate {
-    0% { 
-      transform: translatex(-20%);
-    }
-    100%{ 
-      transform: translatex(0%);
-    }
+@keyframes translateIzq {
+  0% { 
+    transform: translatex(-100px);
   }
+  100%{ 
+    transform: translatex(0px);
+  }
+}
+@keyframes translateDer {
+  0% { 
+    transform: translatex(100px);
+  }
+  100%{ 
+    transform: translatex(0px);
+  }
+}
 
-  .hero__info h1 {
-    animation: translate 5s ;
+@keyframes fade {
+  from{
+    opacity: 0;
   }
-  .servicios__container {
-    animation: translate 3s ;
-  }
+  to {
+    opacity: 1;
+    }
+}
+
+.hero__info h1 {
+    opacity: 0;
+    animation: fade 2s ease-in forwards, translateIzq 6s ;
+}
+.hero-ilustration img {
+    opacity: 0;
+    animation: fade 2s ease-in forwards, translateDer 6s ;
+}
+.hero__info--content {
+    opacity: 0;
+    animation: fade 2s ease-in forwards 2s ;
+}
+
+.slide1 {
+    animation: translateDer 5s;
+}
+.slide2 {
+    animation: translateIzq 5s;
+}

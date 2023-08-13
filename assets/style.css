@@ -258,7 +258,7 @@ main {
     color: var(--paragraph-scnd);
 }
 
-.container--img {
+.container--img img {
     width: 350px;
 }
 
