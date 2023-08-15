@@ -86,6 +86,8 @@
     .menu-label {
         display: flex;
     }
+    
+    /* incluye animacion de menu */
 
     #menu-toggle:checked + .navbar__menu {
         display: flex;
